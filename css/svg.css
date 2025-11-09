@@ -1,0 +1,14 @@
+.cart {
+  display: flex;
+  align-items: center;
+  transition: 200ms;
+  &:hover {
+    fill: #0a295a;
+  }
+}
+.flesh {
+  margin-right: 3px;
+  padding: 1px;
+  border: 1px solid #4e5e60;
+  border-radius: 5px;
+}

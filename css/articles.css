@@ -1,0 +1,78 @@
+.articles {
+  width: 100%;
+  height: 390px;
+  background-color: #fafafa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .articles-center {
+    width: 80%;
+    height: 90%;
+    .articles-text {
+      display: flex;
+      flex-flow: row wrap;
+      gap: 960px;
+      h2 {
+        font-family: var(--shabnam);
+        font-size: 24px;
+        color: #757575;
+      }
+      .articles-text-left {
+        display: flex;
+        flex-flow: row wrap;
+        gap: 3px;
+        h3 {
+          font-family: var(--shabnam);
+          font-size: 16px;
+          color: #757575;
+          font-weight: lighter;
+        }
+      }
+    }
+  }
+  .swiper {
+    width: 100%;
+    height: 75%;
+    padding-top: 35px;
+  }
+
+  .swiper-slide {
+    height: 81%;
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+      0 2px 4px -1px rgba(0, 0, 0, 0.06);
+      cursor: pointer;
+      &:hover .span-articles{
+        color: #0a5abd;
+      }
+    .span-articles {
+      display: block;
+      margin: 0 auto;
+      width: 90%;
+      height: 15%;
+      font-family: var(--shabnam);
+      font-size: 14px;
+      text-align: center;
+      color: #000000de;
+      line-height: 25px;
+    }
+  }
+
+  .swiper-slide img {
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+    border-radius: 12px;
+    margin-bottom: 10px;
+  }
+  .swiper-pagination {
+    margin-top: 20px !important;
+  }
+  .line-height {
+    display: block;
+    line-height: 40px;
+  }
+}

@@ -1,0 +1,95 @@
+footer {
+  .footer-center {
+    width: 100%;
+    height: 302px;
+    background-color: #fafafa;
+    display: flex;
+    justify-content: center;
+    .footer-top {
+      width: 84%;
+      height: 100%;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-between;
+      align-items: center;
+      .footer-top-1 {
+        width: 15.1%;
+        height: 90%;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        .footer-logo {
+          width: 100%;
+          height: 30%;
+        }
+        span {
+          display: flex;
+          flex-flow: row wrap;
+          gap: 23px;
+          font-family: var(--shabnam);
+          font-size: 14px;
+          color: #000000de;
+        }
+      }
+      .footer-top-2 {
+        width: 48.7%;
+        height: 90%;
+        span {
+          display: block;
+          font-size: 20px;
+          font-family: var(--shabnam);
+          font-weight: bolder;
+          color: #000000de;
+          margin: 0px 0px 16px;
+        }
+        p {
+          font-size: 16px;
+          font-family: var(--shabnam);
+          color: #00000099;
+          line-height: 26px;
+        }
+      }
+      .footer-top-3 {
+        width: 13.8%;
+        height: 90%;
+        span {
+          display: block;
+          font-family: var(--shabnam);
+          font-weight: bolder;
+          color: #000000de;
+          margin: 0px 0px 16px;
+        }
+        a {
+          display: block;
+          font-family: var(--shabnam);
+          font-size: 14px;
+          color: #757575;
+          margin: 0px 0px 16px;
+          text-decoration: none;
+        }
+      }
+      .footer-top-4 {
+        width: 13.8%;
+        height: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+  }
+  .footer-bottom {
+    width: 100%;
+    height: 45px;
+    background-color: #0a5abd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    span {
+      font-family: var(--shabnam);
+      font-size: 14px;
+      color: #fff;
+    }
+  }
+}

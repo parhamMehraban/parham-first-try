@@ -1,0 +1,30 @@
+@import url(./header.css);
+@import url(./setting.css);
+@import url(./baner.css);
+@import url(./dailyOffer.css);
+@import url(./svg.css);
+@import url(./category.css);
+@import url(./new.css);
+@import url(./positivePoints.css);
+@import url(./mostSell.css);
+@import url(./favoriteBrands.css);
+@import url(./articles.css);
+@import url(./address.css);
+@import url(./footer.css);
+@import url(./wraper.css);
+@import url(./login.css);
+@import url(./poshtibani.css);
+@import url(./customers.css);
+@import url(./accessories.css);
+@font-face {
+  font-family: shabnam;
+  src: url(../fonts/shabnam/Shabnam.eot), url(../fonts/shabnam/Shabnam.ttf),
+    url(../fonts/shabnam/Shabnam.woff), url(../fonts/shabnam/Shabnam.woff2);
+}
+@font-face {
+  font-family: fNum;
+  src: url(../fonts/FaNum/IRANSansWebFaNum-Bold.eot),
+    url(../fonts/FaNum/IRANSansWebFaNum-Bold.ttf),
+    url(../fonts/FaNum/IRANSansWebFaNum-Bold.woff),
+    url(../fonts/FaNum/IRANSansWebFaNum-Bold.woff2);
+}

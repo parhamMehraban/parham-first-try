@@ -1,0 +1,104 @@
+.positivePoints {
+  width: 100%;
+  height: 310px;
+  padding-top: 30px;
+  text-align: center;
+  font-family: var(--shabnam);
+  font-size: 24px;
+  font-weight: bolder;
+  background-color: #fafafa;
+  .positivePoints-center {
+    width: 80%;
+    height: 60%;
+    margin: 0 auto;
+    margin-top: 60px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    .positivePoints-center-1 {
+      width: 23%;
+      height: 100%;
+      .positive-1 {
+        width: 64px;
+        height: 64px;
+        margin: 0 auto;
+        display: block;
+      }
+      .positive-span-1 {
+        font-size: 16px;
+        color: #757575;
+      }
+      .para-positive-1 {
+        font-size: 14px;
+        color: #000000de;
+        font-weight: lighter;
+        margin-top: 10px;
+        line-height: 30px;
+      }
+    }
+    .positivePoints-center-2 {
+      width: 23%;
+      height: 100%;
+      .positive-2 {
+        width: 64px;
+        height: 64px;
+        margin: 0 auto;
+        display: block;
+      }
+      .positive-span-2 {
+        font-size: 16px;
+        color: #757575;
+      }
+      .para-positive-2 {
+        font-size: 14px;
+        color: #000000de;
+        font-weight: lighter;
+        margin-top: 10px;
+        line-height: 30px;
+      }
+    }
+    .positivePoints-center-3 {
+      width: 23%;
+      height: 100%;
+      .positive-3 {
+        width: 64px;
+        height: 64px;
+        margin: 0 auto;
+        display: block;
+      }
+      .positive-span-3 {
+        font-size: 16px;
+        color: #757575;
+      }
+      .para-positive-3 {
+        font-size: 14px;
+        color: #000000de;
+        font-weight: lighter;
+        margin-top: 10px;
+        line-height: 30px;
+      }
+    }
+    .positivePoints-center-4 {
+      width: 23%;
+      height: 100%;
+      .positive-4 {
+        width: 64px;
+        height: 64px;
+        margin: 0 auto;
+        display: block;
+      }
+      .positive-span-4 {
+        font-size: 16px;
+        color: #757575;
+      }
+      .para-positive-4 {
+        font-size: 14px;
+        color: #000000de;
+        font-weight: lighter;
+        margin-top: 10px;
+        line-height: 30px;
+      }
+    }
+  }
+}

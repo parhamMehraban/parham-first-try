@@ -1,0 +1,299 @@
+.dailyOffer-div {
+  width: 100%;
+  height: 699px;
+  background-color: #fafafa;
+  display: flex;
+  justify-content: center;
+  .dailyOffer {
+    width: 1150px;
+    height: 651px;
+    padding: 0 48px 48px;
+    background-color: #e2e2e2;
+    border-radius: 12px;
+    font-family: var(--shabnam);
+    color: #757575;
+    .daily-top {
+      display: flex;
+      flex-flow: row wrap;
+      gap: 633px;
+      padding: 24px 0;
+      box-sizing: border-box;
+      .daily-top-text {
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        font-size: 36px;
+        font-weight: bold;
+        gap: 8px;
+      }
+      .daily-top-time {
+        line-height: 52px;
+        font-size: 14px;
+        font-family: var(--fNum);
+      }
+    }
+    .container-items {
+      width: 1150px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 23px;
+      .across {
+        display: flex;
+        flex-flow: row wrap;
+        gap: 23px;
+        .across-items {
+          width: 318px;
+          height: 549px;
+          background-color: #ffffff;
+          border-radius: 12px;
+          box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1),
+            0 1px 2px 0 rgba(0, 0, 0, 0.06);
+          &:hover {
+            box-shadow: 0 0 16px 0 #2b2b2b36;
+          }
+          .offer-item-1 {
+            img {
+              width: 285.8px;
+              height: 285.8px;
+              padding: 0 16px;
+              margin-top: 15px;
+            }
+            .textDiv {
+              height: 128.42px;
+              padding: 16px;
+              color: rgba(0, 0, 0, 0.87);
+              font-size: 14px;
+              font-weight: 100;
+              line-height: 30px;
+            }
+            .span-1 {
+              padding: 0 16px;
+              font-size: 14px;
+              text-decoration: line-through;
+              font-family: var(--fNum);
+              opacity: 0.7;
+            }
+            .span-2 {
+              margin-right: 75px;
+              font-size: 14px;
+              color: rgb(254, 95, 85);
+              font-family: var(--fNum);
+            }
+            .span-3 {
+              color: rgb(10, 90, 189);
+              font-size: 18px;
+              display: block;
+              margin: 10px 185px 0 0;
+              font-family: var(--fNum);
+              .span-3-in {
+                font-size: 12px;
+                color: rgba(0, 0, 0, 0.6);
+              }
+            }
+          }
+          .offer-item-2 {
+            img {
+              width: 285.8px;
+              height: 285.8px;
+              padding: 0 16px;
+              margin-top: 15px;
+            }
+            .textDiv {
+              height: 128.42px;
+              padding: 16px;
+              color: rgba(0, 0, 0, 0.87);
+              font-size: 14px;
+              font-weight: 100;
+              line-height: 30px;
+            }
+            .span-1 {
+              padding: 0 16px;
+              font-size: 14px;
+              text-decoration: line-through;
+              font-family: var(--fNum);
+              opacity: 0.7;
+            }
+            .span-2 {
+              margin-right: 83px;
+              font-size: 14px;
+              color: rgb(254, 95, 85);
+              font-family: var(--fNum);
+            }
+            .span-3 {
+              color: rgb(10, 90, 189);
+              font-size: 18px;
+              display: block;
+              margin: 10px 190px 0 0;
+              font-family: var(--fNum);
+              .span-3-in {
+                font-size: 12px;
+                color: rgba(0, 0, 0, 0.6);
+              }
+            }
+          }
+        }
+      }
+      .down {
+        display: flex;
+        flex-flow: column wrap;
+        row-gap: 19px;
+        .down-items {
+          width: 466px;
+          height: 170px;
+          background-color: #ffffff;
+          border-radius: 12px;
+          box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1),
+            0 1px 2px 0 rgba(0, 0, 0, 0.06);
+          &:hover {
+            box-shadow: 0 0 16px 0 #2b2b2b36;
+          }
+          .offer-item-3 {
+            display: inline-flex;
+            img {
+              width: 160px;
+              height: 160px;
+              border-radius: 12px;
+            }
+            .textDiv {
+              width: 297px;
+              height: 150px;
+              padding: 12px;
+              color: rgba(0, 0, 0, 0.87);
+              font-size: 14px;
+              font-weight: 500;
+              display: inline-flex;
+              flex-flow: wrap;
+              line-height: 30px;
+            }
+            h3 {
+              width: 280px;
+              font-size: 14px;
+            }
+            .span-1 {
+              display: inline-block;
+              margin-top: 0px;
+              text-decoration: line-through;
+              color: #757575;
+              font-family: var(--fNum);
+              opacity: 0.7;
+            }
+            .span-2 {
+              margin-right: 110px;
+              font-size: 14px;
+              color: rgb(254, 95, 85);
+              font-family: var(--fNum);
+            }
+            .span-3 {
+              color: rgb(10, 90, 189);
+              font-size: 18px;
+              display: block;
+              margin-right: 190px;
+              font-family: var(--fNum);
+              .span-3-in {
+                font-size: 12px;
+                color: rgba(0, 0, 0, 0.6);
+              }
+            }
+          }
+          .offer-item-4 {
+            display: inline-flex;
+            img {
+              width: 160px;
+              height: 160px;
+              border-radius: 12px;
+            }
+            .textDiv {
+              width: 297px;
+              height: 150px;
+              padding: 12px;
+              color: rgba(0, 0, 0, 0.87);
+              font-size: 14px;
+              font-weight: 500;
+              display: inline-flex;
+              flex-flow: wrap;
+              line-height: 30px;
+            }
+            h3 {
+              width: 280px;
+              font-size: 14px;
+            }
+            .span-1 {
+              display: inline-block;
+              margin-top: 20px;
+              text-decoration: line-through;
+              color: #757575;
+              font-family: var(--fNum);
+              opacity: 0.7;
+            }
+            .span-2 {
+              margin-right: 100px;
+              font-size: 14px;
+              color: rgb(254, 95, 85);
+              font-family: var(--fNum);
+            }
+            .span-3 {
+              color: rgb(10, 90, 189);
+              font-size: 18px;
+              display: block;
+              margin: 10px 173px 0 0;
+              font-family: var(--fNum);
+              .span-3-in {
+                font-size: 12px;
+                color: rgba(0, 0, 0, 0.6);
+              }
+            }
+          }
+          .offer-item-5 {
+            display: inline-flex;
+            img {
+              width: 160px;
+              height: 160px;
+              border-radius: 12px;
+            }
+            .textDiv {
+              width: 297px;
+              height: 150px;
+              padding: 12px;
+              color: rgba(0, 0, 0, 0.87);
+              font-size: 14px;
+              font-weight: 500;
+              display: inline-flex;
+              flex-flow: wrap;
+              line-height: 30px;
+            }
+            h3 {
+              width: 280px;
+              font-size: 14px;
+            }
+            .span-1 {
+              display: inline-block;
+              margin-top: 20px;
+              text-decoration: line-through;
+              color: #757575;
+              font-family: var(--fNum);
+              opacity: 0.7;
+            }
+            .span-2 {
+              margin-right: 100px;
+              font-size: 14px;
+              color: rgb(254, 95, 85);
+              font-family: var(--fNum);
+            }
+            .span-3 {
+              color: rgb(10, 90, 189);
+              font-size: 18px;
+              display: block;
+              margin: 10px 175px 0 0;
+              font-family: var(--fNum);
+              .span-3-in {
+                font-size: 12px;
+                color: rgba(0, 0, 0, 0.6);
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

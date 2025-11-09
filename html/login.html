@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ورود به سایت</title>
+    <link
+      rel="shortcut icon"
+      href="../images/favicon/title-icon.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="../css/main.css" />
+  </head>
+  <body>
+    <!-- #region wraper -->
+    <div class="wraper">
+      <!-- #region login -->
+      <div class="login">
+        <div class="login-center">
+          <a href="./index.html">
+            <div class="login-top">
+              <svg
+                fill="#75757590"
+                width="26px"
+                height="26px"
+                viewBox="0 0 32 32"
+                xmlns="http://www.w3.org/2000/svg"
+                stroke="#"
+              >
+                <g id="SVGRepo_bgCarrier" stroke-width="0" />
+
+                <g
+                  id="SVGRepo_tracerCarrier"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+
+                <g id="SVGRepo_iconCarrier">
+                  <path
+                    d="M7.004 23.087l7.08-7.081-7.07-7.071L8.929 7.02l7.067 7.069L23.084 7l1.912 1.913-7.089 7.093 7.075 7.077-1.912 1.913-7.074-7.073L8.917 25z"
+                  />
+                </g>
+              </svg>
+              <img class="login-logo" src="../images/logo.png" alt="logo" />
+            </div>
+          </a>
+          <div class="login-bottom">
+            <span class="span-1-login">ورود و ثبت نام در سایت</span>
+            <p>
+              برای ورود و یا ثبت‌نام در سایت، لطفا شماره موبایل خود را وارد
+              نمایید.
+            </p>
+            <div class="buttons">
+              <input type="text" name="phoneNumber" id="phoneNumber" required />
+              <label for="phoneNumber">شماره موبایل</label>
+              <div id="register">
+                <a class="register-button" href="#">ورود به سایت</a>
+              </div>
+            </div>
+            <p class="end-p">
+              ورود شما به معنای پذیرش <span>شرایط و قوانین</span> سایت است.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="footer-login">
+        <a href="./index.html">صفحه اصلی</a>
+        <a href="#">درباره ما</a>
+        <a href="#">محصولات</a>
+        <a href="#">سوالات متداول</a>
+        <a href="#">معرفی محصولات</a>
+        <a href="#">تماس با ما</a>
+      </div>
+      <!-- #endregion login -->
+    </div>
+    <!-- #endregion wraper -->
+    <script>
+      const input = document.getElementById("phoneNumber");
+      const button = document.getElementById("register");
+
+      input.addEventListener("input", () => {
+        if (input.value.trim() !== "") {
+          button.style.backgroundColor = "#0A5ABD";
+        } else {
+          button.style.backgroundColor = "#80a9db";
+        }
+      });
+    </script>
+  </body>
+</html>
