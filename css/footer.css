@@ -31,6 +31,9 @@ footer {
           font-family: var(--shabnam);
           font-size: 14px;
           color: #000000de;
+          img{
+            cursor: pointer;
+          }
         }
       }
       .footer-top-2 {
@@ -68,6 +71,9 @@ footer {
           color: #757575;
           margin: 0px 0px 16px;
           text-decoration: none;
+          &:hover{
+            color: #000;
+          }
         }
       }
       .footer-top-4 {
@@ -76,6 +82,7 @@ footer {
         display: flex;
         justify-content: center;
         align-items: center;
+        cursor: pointer;
       }
     }
   }

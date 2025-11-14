@@ -150,20 +150,25 @@
     justify-content: space-evenly;
     align-items: center;
     position: relative;
-    #Qbox-poshtibani {
-      width: 290px;
-      height: 45px;
-      border-radius: 15px;
-      outline-offset: unset;
-      border: 3px solid #7b7b7b3f;
-    }
-    label {
-      position: absolute;
-      font-family: var(--shabnam);
-      font-size: 12px;
-      color: #7b7b7b;
-      right: 25px;
-      top: 23px;
+    .text{
+      width: 297.57px;
+      height: 48.44px;
+      border: 1px solid #2b2b2b33;
+      border-radius: 12px;
+      box-shadow: 0 8px 5px #2b2b2b0e;
+      padding: 12px 8px;
+      box-sizing: border-box;
+      display: flex;
+      flex-flow: row wrap;
+      column-gap: 10px;
+      input{
+        width: 235.57px;
+        height: 19px;
+        border: unset;
+        outline: unset;
+        font-size: 14.5px;
+        font-family: var(--shabnam);
+      }
     }
     .send {
       width: 40px;

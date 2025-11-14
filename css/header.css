@@ -1,1541 +1,1543 @@
 .header {
-  width: 100%;
-  height: 133px;
-  margin-bottom: 3px;
-  display: flex;
-  justify-content: center;
-  align-items: end;
-  box-shadow: 0 2px 2px rgba(214, 214, 214, 0.473);
-  background-color: #ffffff;
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 999;
-  .header-center {
-    width: 1280px;
-    height: 109px;
-    padding-right: 10px;
+    width: 100%;
+    height: 133px;
+    margin-bottom: 3px;
     display: flex;
-    flex-flow: row wrap;
     justify-content: center;
-    .header-center-top {
-      width: 98%;
-      height: 45px;
-      box-sizing: border-box;
+    align-items: end;
+    box-shadow: 0 2px 2px rgba(214, 214, 214, 0.473);
+    background-color: #ffffff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    .header-center {
+      width: 1280px;
+      height: 109px;
+      padding-right: 10px;
       display: flex;
       flex-flow: row wrap;
-      gap: 30px;
-      div:nth-last-of-type(2) {
-        margin-left: auto;
-      }
-      .header-center-top-p1 {
-        width: 96px;
-        height: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        .logo {
-          width: 96px;
-          height: 42px;
-        }
-      }
-      .header-center-top-p2 {
-        width: 371px;
-        height: 100%;
-        display: flex;
-        align-items: center;
-        .search {
-          width: 100%;
-          height: 40px;
-          padding-right: 6px;
-          background-color: #f7f8fa;
-          border-radius: 12px;
-          box-shadow: 0 2px 2px rgba(214, 214, 214, 0.473);
-          display: flex;
-          justify-content: strat;
-          align-items: center;
-          gap: 4px;
-          label {
-            font-size: 30px;
-            display: flex;
-            align-items: center;
-          }
-          input {
-            width: 90%;
-            height: 40px;
-            border: unset;
-            outline: unset;
-            background-color: rgb(0, 0, 0, 0);
-            font-family: var(--shabnam);
-            font-size: 16px;
-          }
-        }
-      }
-      .header-center-top-p3 {
-        width: 300px;
-        height: 100%;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        a {
-          font-family: var(--shabnam);
-          font-size: 14px;
-          text-decoration: none;
-          color: #a3a3a3;
-          transition: 300ms;
-          &:hover {
-            color: #0a295a;
-          }
-        }
-      }
-      .header-center-top-p4 {
-        width: 161px;
-        height: 100%;
+      justify-content: center;
+      .header-center-top {
+        width: 98%;
+        height: 45px;
+        box-sizing: border-box;
         display: flex;
         flex-flow: row wrap;
-        justify-content: center;
-        align-items: center;
-        .sabad {
-          width: 42px;
-          height: 42px;
-          margin-left: 15px;
-          background-color: #f7f8fa;
-          box-shadow: 0 2px 2px rgba(214, 214, 214, 0.473);
-          border-radius: 12px;
+        gap: 30px;
+        cursor: pointer;
+        div:nth-last-of-type(2) {
+          margin-left: auto;
+        }
+        .header-center-top-p1 {
+          width: 96px;
+          height: 100%;
           display: flex;
           justify-content: center;
           align-items: center;
-          position: relative;
-          .circle {
-            width: 19px;
-            height: 19px;
-            border-radius: 50%;
+          .logo {
+            width: 96px;
+            height: 42px;
+          }
+        }
+        .header-center-top-p2 {
+          width: 371px;
+          height: 100%;
+          display: flex;
+          align-items: center;
+          .search {
+            width: 100%;
+            height: 40px;
+            padding-right: 6px;
+            background-color: #f7f8fa;
+            border-radius: 12px;
+            box-shadow: 0 2px 2px rgba(214, 214, 214, 0.473);
+            display: flex;
+            justify-content: strat;
+            align-items: center;
+            gap: 4px;
+            label {
+              font-size: 30px;
+              display: flex;
+              align-items: center;
+            }
+            input {
+              width: 90%;
+              height: 40px;
+              border: unset;
+              outline: unset;
+              background-color: rgb(0, 0, 0, 0);
+              font-family: var(--shabnam);
+              font-size: 16px;
+            }
+          }
+        }
+        .header-center-top-p3 {
+          width: 300px;
+          height: 100%;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          a {
+            font-family: var(--shabnam);
+            font-size: 14px;
+            text-decoration: none;
+            color: #a3a3a3;
+            transition: 300ms;
+            &:hover {
+              color: #0a295a;
+            }
+          }
+        }
+        .header-center-top-p4 {
+          width: 161px;
+          height: 100%;
+          display: flex;
+          flex-flow: row wrap;
+          justify-content: center;
+          align-items: center;
+          .sabad {
+            width: 42px;
+            height: 42px;
+            margin-left: 15px;
+            background-color: #f7f8fa;
+            box-shadow: 0 2px 2px rgba(214, 214, 214, 0.473);
+            border-radius: 12px;
             display: flex;
             justify-content: center;
             align-items: center;
-            padding: 0 0 1px 1px;
-            box-sizing: border-box;
-            background-color: #fe5f55;
-            color: whitesmoke;
-            font-family: var(--fNum);
-            position: absolute;
-            bottom: 30px;
-            left: 32px;
-            box-shadow: 0 0 4px 0 rgba(10, 90, 189, 0.4);
+            position: relative;
+            .circle {
+              width: 19px;
+              height: 19px;
+              border-radius: 50%;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              padding: 0 0 1px 1px;
+              box-sizing: border-box;
+              background-color: #fe5f55;
+              color: whitesmoke;
+              font-family: var(--fNum);
+              position: absolute;
+              bottom: 30px;
+              left: 32px;
+              box-shadow: 0 0 4px 0 rgba(10, 90, 189, 0.4);
+            }
           }
-        }
 
-        .register {
-          display: block;
-          width: 100px;
-          height: 42px;
-          border-radius: 12px;
-          line-height: 42px;
-          text-decoration: none;
-          background-color: #0a5abd;
-          color: rgba(255, 255, 255, 1);
-          font-family: var(--shabnam);
-          font-size: 14px;
-          text-align: center;
-          transition: 300ms;
-          &:hover {
-            background-color: #0a295a;
+          .register {
+            display: block;
+            width: 100px;
+            height: 42px;
+            border-radius: 12px;
+            line-height: 42px;
+            text-decoration: none;
+            background-color: #0a5abd;
+            color: rgba(255, 255, 255, 1);
+            font-family: var(--shabnam);
+            font-size: 14px;
+            text-align: center;
+            transition: 300ms;
+            &:hover {
+              background-color: #0a295a;
+            }
           }
         }
       }
-    }
-    .header-center-bottom {
-      width: 98%;
-      height: 64px;
-      padding: 0 16px;
-      box-sizing: border-box;
-      font-family: var(--shabnam);
-      font-size: 14px;
-      .nav {
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: space-between;
-        .menu {
-          line-height: 62px;
-          overflow: hidden;
-          position: relative;
-          &:hover .submenu-1 {
-            display: block;
-          }
-          &:hover .submenu-2 {
-            display: block;
-          }
-          &:hover .submenu-3 {
-            display: block;
-          }
-          &:hover .submenu-4 {
-            display: block;
-          }
-          &:hover .submenu-5 {
-            display: block;
-          }
-          &:hover .submenu-6 {
-            display: block;
-          }
-          &:hover .submenu-7 {
-            display: block;
-          }
-          .submenu-1 {
-            width: 22vw;
-            height: 80.3vh;
-            background-color: #fff;
-            position: absolute;
-            border-top: 1px solid #8b8b8b34;
-            color: #00000099;
-            font-size: 13px;
-            padding-top: 12px;
-            box-sizing: border-box;
-            border-radius: 0px 0px 7px 7px;
-            .submenu-item-1 {
-              &:hover {
-                background-color: #f0f0f0;
-              }
-              &:hover span {
-                color: #0a5abd;
-              }
-              span {
-                display: block;
-                height: 43px;
-                line-height: 43px;
-                padding-right: 15px;
-                cursor: pointer;
-              }
+      .header-center-bottom {
+        width: 98%;
+        height: 64px;
+        padding: 0 16px;
+        box-sizing: border-box;
+        font-family: var(--shabnam);
+        font-size: 14px;
+        .nav {
+          display: flex;
+          flex-flow: row wrap;
+          justify-content: space-between;
+          .menu {
+            line-height: 62px;
+            overflow: hidden;
+            position: relative;
+            &:hover .submenu-1 {
+              display: block;
             }
-            .submenu-item-2 {
-              &:hover {
-                background-color: #f0f0f0;
-              }
-              &:hover span {
-                color: #0a5abd;
-              }
-              span {
-                display: block;
-                height: 43px;
-                line-height: 43px;
-                padding-right: 15px;
-                cursor: pointer;
-              }
+            &:hover .submenu-2 {
+              display: block;
             }
-            .submenu-item-3 {
-              position: relative;
-              &:hover {
-                background-color: #f0f0f0;
-                color: #0a5abd;
-              }
-              &:hover .subsubmenu-1 {
-                display: block;
-              }
-              .submenu-svg-div {
-                display: flex;
-                flex-flow: row wrap;
-                align-items: center;
-                gap: 170px;
-              }
-              .span-1 {
-                display: block;
-                height: 43px;
-                line-height: 43px;
-                padding-right: 15px;
-                cursor: pointer;
-              }
-              .subsubmenu-1 {
-                width: 22vw;
-                height: 17.35vh;
-                position: absolute;
-                font-size: 12px;
-                top: 0;
-                left: -100%;
-                background-color: #fff;
-                border-radius: 7px 0px 0px 7px;
-                display: none;
-                .subSpan-1 {
-                  display: block;
-                  height: 41px;
-                  line-height: 41px;
-                  padding-right: 15px;
-                  cursor: pointer;
-                  border-radius: 7px 0 0 0;
-                  color: #00000099;
-                  &:hover {
-                    background-color: #f0f0f0;
-                    color: #0a5abd;
-                  }
-                }
-                .subSpan-2 {
-                  display: block;
-                  height: 41px;
-                  line-height: 41px;
-                  padding-right: 15px;
-                  cursor: pointer;
-                  color: #00000099;
-                  &:hover {
-                    background-color: #f0f0f0;
-                    color: #0a5abd;
-                  }
-                }
-                .subSpan-3 {
-                  display: block;
-                  height: 41px;
-                  line-height: 41px;
-                  padding-right: 15px;
-                  cursor: pointer;
-                  border-radius: 0px 0px 0px 7px;
-                  color: #00000099;
-                  &:hover {
-                    background-color: #f0f0f0;
-                    color: #0a5abd;
-                  }
-                }
-              }
+            &:hover .submenu-3 {
+              display: block;
             }
-            .submenu-item-4 {
-              &:hover {
-                background-color: #f0f0f0;
-              }
-              &:hover span {
-                color: #0a5abd;
-              }
-              span {
-                display: block;
-                height: 43px;
-                line-height: 43px;
-                padding-right: 15px;
-                cursor: pointer;
-              }
+            &:hover .submenu-4 {
+              display: block;
             }
-            .submenu-item-5 {
-              position: relative;
-              &:hover {
-                background-color: #f0f0f0;
-                color: #0a5abd;
-              }
-              &:hover .subsubmenu-2 {
-                display: block;
-              }
-              .submenu-svg-div {
-                display: flex;
-                flex-flow: row wrap;
-                align-items: center;
-                gap: 230px;
-              }
-              .span-1 {
-                display: block;
-                height: 43px;
-                line-height: 43px;
-                padding-right: 15px;
-                cursor: pointer;
-              }
-              .subsubmenu-2 {
-                width: 22vw;
-                height: 46vh;
-                position: absolute;
-                font-size: 12px;
-                top: 0;
-                left: -100%;
-                background-color: #fff;
-                border-radius: 7px 0px 0px 7px;
-                display: none;
-                .subSpan-1 {
-                  display: block;
-                  height: 41px;
-                  line-height: 41px;
-                  padding-right: 15px;
-                  cursor: pointer;
-                  border-radius: 7px 0 0 0;
-                  color: #00000099;
-                  &:hover {
-                    background-color: #f0f0f0;
-                    color: #0a5abd;
-                  }
-                }
-                .subSpan-2 {
-                  display: block;
-                  height: 41px;
-                  line-height: 41px;
-                  padding-right: 15px;
-                  cursor: pointer;
-                  color: #00000099;
-                  &:hover {
-                    background-color: #f0f0f0;
-                    color: #0a5abd;
-                  }
-                }
-                .subSpan-3 {
-                  display: block;
-                  height: 41px;
-                  line-height: 41px;
-                  padding-right: 15px;
-                  cursor: pointer;
-                  color: #00000099;
-                  &:hover {
-                    background-color: #f0f0f0;
-                    color: #0a5abd;
-                  }
-                }
-                .subSpan-4 {
-                  display: block;
-                  height: 41px;
-                  line-height: 41px;
-                  padding-right: 15px;
-                  cursor: pointer;
-                  color: #00000099;
-                  &:hover {
-                    background-color: #f0f0f0;
-                    color: #0a5abd;
-                  }
-                }
-                .subSpan-5 {
-                  display: block;
-                  height: 41px;
-                  line-height: 41px;
-                  padding-right: 15px;
-                  cursor: pointer;
-                  color: #00000099;
-                  &:hover {
-                    background-color: #f0f0f0;
-                    color: #0a5abd;
-                  }
-                }
-                .subSpan-6 {
-                  display: block;
-                  height: 41px;
-                  line-height: 41px;
-                  padding-right: 15px;
-                  cursor: pointer;
-                  color: #00000099;
-                  &:hover {
-                    background-color: #f0f0f0;
-                    color: #0a5abd;
-                  }
-                }
-                .subSpan-7 {
-                  display: block;
-                  height: 41px;
-                  line-height: 41px;
-                  padding-right: 15px;
-                  cursor: pointer;
-                  color: #00000099;
-                  &:hover {
-                    background-color: #f0f0f0;
-                    color: #0a5abd;
-                  }
-                }
-                .subSpan-8 {
-                  display: block;
-                  height: 41px;
-                  line-height: 41px;
-                  padding-right: 15px;
-                  cursor: pointer;
-                  border-radius: 0px 0px 0px 7px;
-                  color: #00000099;
-                  &:hover {
-                    background-color: #f0f0f0;
-                    color: #0a5abd;
-                  }
-                }
-              }
+            &:hover .submenu-5 {
+              display: block;
             }
-            .submenu-item-6 {
-              position: relative;
-              &:hover {
-                background-color: #f0f0f0;
-                color: #0a5abd;
-              }
-              &:hover .subsubmenu-3 {
-                display: block;
-              }
-              .submenu-svg-div {
-                display: flex;
-                flex-flow: row wrap;
-                align-items: center;
-                gap: 205px;
-              }
-              .span-1 {
-                display: block;
-                height: 43px;
-                line-height: 43px;
-                padding-right: 15px;
-                cursor: pointer;
-              }
-              .subsubmenu-3 {
-                width: 22vw;
-                height: 34.5vh;
-                position: absolute;
-                font-size: 12px;
-                top: 0;
-                left: -100%;
-                background-color: #fff;
-                border-radius: 7px 0px 0px 7px;
-                display: none;
-                .subSpan-1 {
-                  display: block;
-                  height: 41px;
-                  line-height: 41px;
-                  padding-right: 15px;
-                  cursor: pointer;
-                  border-radius: 7px 0 0 0;
-                  color: #00000099;
-                  &:hover {
-                    background-color: #f0f0f0;
-                    color: #0a5abd;
-                  }
-                }
-                .subSpan-2 {
-                  display: block;
-                  height: 41px;
-                  line-height: 41px;
-                  padding-right: 15px;
-                  cursor: pointer;
-                  color: #00000099;
-                  &:hover {
-                    background-color: #f0f0f0;
-                    color: #0a5abd;
-                  }
-                }
-                .subSpan-3 {
-                  display: block;
-                  height: 41px;
-                  line-height: 41px;
-                  padding-right: 15px;
-                  cursor: pointer;
-                  color: #00000099;
-                  &:hover {
-                    background-color: #f0f0f0;
-                    color: #0a5abd;
-                  }
-                }
-                .subSpan-4 {
-                  display: block;
-                  height: 41px;
-                  line-height: 41px;
-                  padding-right: 15px;
-                  cursor: pointer;
-                  color: #00000099;
-                  &:hover {
-                    background-color: #f0f0f0;
-                    color: #0a5abd;
-                  }
-                }
-                .subSpan-5 {
-                  display: block;
-                  height: 41px;
-                  line-height: 41px;
-                  padding-right: 15px;
-                  cursor: pointer;
-                  color: #00000099;
-                  &:hover {
-                    background-color: #f0f0f0;
-                    color: #0a5abd;
-                  }
-                }
-                .subSpan-6 {
-                  display: block;
-                  height: 41px;
-                  line-height: 41px;
-                  padding-right: 15px;
-                  cursor: pointer;
-                  border-radius: 0px 0px 0px 7px;
-                  color: #00000099;
-                  &:hover {
-                    background-color: #f0f0f0;
-                    color: #0a5abd;
-                  }
-                }
-              }
+            &:hover .submenu-6 {
+              display: block;
             }
-            .submenu-item-7 {
-              position: relative;
-              &:hover {
-                background-color: #f0f0f0;
-                color: #0a5abd;
-              }
-              &:hover .subsubmenu-4 {
-                display: block;
-              }
-              .submenu-svg-div {
-                display: flex;
-                flex-flow: row wrap;
-                align-items: center;
-                gap: 123px;
-              }
-              .span-1 {
-                display: block;
-                height: 43px;
-                line-height: 43px;
-                padding-right: 15px;
-                cursor: pointer;
-              }
-              .subsubmenu-4 {
-                width: 22vw;
-                height: 40.38vh;
-                position: absolute;
-                font-size: 12px;
-                top: 0;
-                left: -100%;
-                background-color: #fff;
-                border-radius: 7px 0px 0px 7px;
-                display: none;
-                .subSpan-1 {
-                  display: block;
-                  height: 41px;
-                  line-height: 41px;
-                  padding-right: 15px;
-                  cursor: pointer;
-                  border-radius: 7px 0 0 0;
-                  color: #00000099;
-                  &:hover {
-                    background-color: #f0f0f0;
-                    color: #0a5abd;
-                  }
-                }
-                .subSpan-2 {
-                  display: block;
-                  height: 41px;
-                  line-height: 41px;
-                  padding-right: 15px;
-                  cursor: pointer;
-                  color: #00000099;
-                  &:hover {
-                    background-color: #f0f0f0;
-                    color: #0a5abd;
-                  }
-                }
-                .subSpan-3 {
-                  display: block;
-                  height: 41px;
-                  line-height: 41px;
-                  padding-right: 15px;
-                  cursor: pointer;
-                  color: #00000099;
-                  &:hover {
-                    background-color: #f0f0f0;
-                    color: #0a5abd;
-                  }
-                }
-                .subSpan-4 {
-                  display: block;
-                  height: 41px;
-                  line-height: 41px;
-                  padding-right: 15px;
-                  cursor: pointer;
-                  color: #00000099;
-                  &:hover {
-                    background-color: #f0f0f0;
-                    color: #0a5abd;
-                  }
-                }
-                .subSpan-5 {
-                  display: block;
-                  height: 41px;
-                  line-height: 41px;
-                  padding-right: 15px;
-                  cursor: pointer;
-                  color: #00000099;
-                  &:hover {
-                    background-color: #f0f0f0;
-                    color: #0a5abd;
-                  }
-                }
-                .subSpan-6 {
-                  display: block;
-                  height: 41px;
-                  line-height: 41px;
-                  padding-right: 15px;
-                  cursor: pointer;
-                  color: #00000099;
-                  &:hover {
-                    background-color: #f0f0f0;
-                    color: #0a5abd;
-                  }
-                }
-                .subSpan-7 {
-                  display: block;
-                  height: 41px;
-                  line-height: 41px;
-                  padding-right: 15px;
-                  cursor: pointer;
-                  border-radius: 0px 0px 0px 7px;
-                  color: #00000099;
-                  &:hover {
-                    background-color: #f0f0f0;
-                    color: #0a5abd;
-                  }
-                }
-              }
+            &:hover .submenu-7 {
+              display: block;
             }
-            .submenu-item-8 {
-              &:hover {
-                background-color: #f0f0f0;
-              }
-              &:hover span {
-                color: #0a5abd;
-              }
-              span {
-                display: block;
-                height: 43px;
-                line-height: 43px;
-                padding-right: 15px;
-                cursor: pointer;
-              }
-            }
-            .submenu-item-9 {
-              &:hover {
-                background-color: #f0f0f0;
-              }
-              &:hover span {
-                color: #0a5abd;
-              }
-              span {
-                display: block;
-                height: 43px;
-                line-height: 43px;
-                padding-right: 15px;
-                cursor: pointer;
-              }
-            }
-            .submenu-item-10 {
-              &:hover {
-                background-color: #f0f0f0;
-              }
-              &:hover span {
-                color: #0a5abd;
-              }
-              span {
-                display: block;
-                height: 43px;
-                line-height: 43px;
-                padding-right: 15px;
-                cursor: pointer;
-              }
-            }
-            .submenu-item-11 {
-              &:hover {
-                background-color: #f0f0f0;
-              }
-              &:hover span {
-                color: #0a5abd;
-              }
-              span {
-                display: block;
-                height: 43px;
-                line-height: 43px;
-                padding-right: 15px;
-                cursor: pointer;
-              }
-            }
-            .submenu-item-12 {
-              &:hover {
-                background-color: #f0f0f0;
-              }
-              &:hover span {
-                color: #0a5abd;
-              }
-              span {
-                display: block;
-                height: 43px;
-                line-height: 43px;
-                padding-right: 15px;
-                cursor: pointer;
-              }
-            }
-            .submenu-item-13 {
-              border-radius: 0px 0px 7px 7px;
-              &:hover {
-                background-color: #f0f0f0;
-              }
-              &:hover span {
-                color: #0a5abd;
-              }
-              span {
-                display: block;
-                height: 43px;
-                line-height: 43px;
-                padding-right: 15px;
-                cursor: pointer;
-              }
-            }
-          }
-          .submenu-2 {
-            width: 22vw;
-            height: 50vh;
-            background-color: #fff;
-            position: absolute;
-            border-top: 1px solid #8b8b8b34;
-            display: none;
-            color: #00000099;
-            font-size: 13px;
-            padding-top: 12px;
-            box-sizing: border-box;
-            border-radius: 0px 0px 7px 7px;
-            .submenu-item-1-2 {
-              &:hover {
-                background-color: #f0f0f0;
-              }
-              &:hover span {
-                color: #0a5abd;
-              }
-              span {
-                display: block;
-                height: 43px;
-                line-height: 43px;
-                padding-right: 15px;
-                cursor: pointer;
-              }
-            }
-            .submenu-item-2-2 {
-              &:hover {
-                background-color: #f0f0f0;
-              }
-              &:hover span {
-                color: #0a5abd;
-              }
-              span {
-                display: block;
-                height: 43px;
-                line-height: 43px;
-                padding-right: 15px;
-                cursor: pointer;
-              }
-            }
-            .submenu-item-3-2 {
-              &:hover {
-                background-color: #f0f0f0;
-              }
-              &:hover span {
-                color: #0a5abd;
-              }
-              span {
-                display: block;
-                height: 43px;
-                line-height: 43px;
-                padding-right: 15px;
-                cursor: pointer;
-              }
-            }
-            .submenu-item-4-2 {
-              &:hover {
-                background-color: #f0f0f0;
-              }
-              &:hover span {
-                color: #0a5abd;
-              }
-              span {
-                display: block;
-                height: 43px;
-                line-height: 43px;
-                padding-right: 15px;
-                cursor: pointer;
-              }
-            }
-            .submenu-item-5-2 {
-              &:hover {
-                background-color: #f0f0f0;
-              }
-              &:hover span {
-                color: #0a5abd;
-              }
-              span {
-                display: block;
-                height: 43px;
-                line-height: 43px;
-                padding-right: 15px;
-                cursor: pointer;
-              }
-            }
-            .submenu-item-6-2 {
-              &:hover {
-                background-color: #f0f0f0;
-              }
-              &:hover span {
-                color: #0a5abd;
-              }
-              span {
-                display: block;
-                height: 43px;
-                line-height: 43px;
-                padding-right: 15px;
-                cursor: pointer;
-              }
-            }
-            .submenu-item-7-2 {
-              &:hover {
-                background-color: #f0f0f0;
-              }
-              &:hover span {
-                color: #0a5abd;
-              }
-              span {
-                display: block;
-                height: 43px;
-                line-height: 43px;
-                padding-right: 15px;
-                cursor: pointer;
-              }
-            }
-            .submenu-item-8-2 {
-              border-radius: 0px 0px 7px 7px;
-              &:hover {
-                background-color: #f0f0f0;
-              }
-              &:hover span {
-                color: #0a5abd;
-              }
-              span {
-                display: block;
-                height: 43px;
-                line-height: 43px;
-                padding-right: 15px;
-                cursor: pointer;
-              }
-            }
-          }
-          .submenu-3 {
-            width: 22vw;
-            height: 14vh;
-            background-color: #fff;
-            position: absolute;
-            border-top: 1px solid #8b8b8b34;
-            display: none;
-            color: #00000099;
-            font-size: 13px;
-            padding-top: 12px;
-            box-sizing: border-box;
-            border-radius: 0px 0px 7px 7px;
-            .submenu-item-1-3 {
-              &:hover {
-                background-color: #f0f0f0;
-              }
-              &:hover span {
-                color: #0a5abd;
-              }
-              span {
-                display: block;
-                height: 43px;
-                line-height: 43px;
-                padding-right: 15px;
-                cursor: pointer;
-              }
-            }
-            .submenu-item-2-3 {
-              border-radius: 0px 0px 7px 7px;
-              &:hover {
-                background-color: #f0f0f0;
-              }
-              &:hover span {
-                color: #0a5abd;
-              }
-              span {
-                display: block;
-                height: 43px;
-                line-height: 43px;
-                padding-right: 15px;
-                cursor: pointer;
-              }
-            }
-          }
-          .submenu-4 {
-            width: 22vw;
-            height: 26vh;
-            background-color: #fff;
-            position: absolute;
-            border-top: 1px solid #8b8b8b34;
-            display: none;
-            color: #00000099;
-            font-size: 13px;
-            padding-top: 12px;
-            box-sizing: border-box;
-            border-radius: 0px 0px 7px 7px;
-            .submenu-item-1-4 {
-              &:hover {
-                background-color: #f0f0f0;
-              }
-              &:hover span {
-                color: #0a5abd;
-              }
-              span {
-                display: block;
-                height: 43px;
-                line-height: 43px;
-                padding-right: 15px;
-                cursor: pointer;
-              }
-            }
-            .submenu-item-2-4 {
-              &:hover {
-                background-color: #f0f0f0;
-              }
-              &:hover span {
-                color: #0a5abd;
-              }
-              span {
-                display: block;
-                height: 43px;
-                line-height: 43px;
-                padding-right: 15px;
-                cursor: pointer;
-              }
-            }
-            .submenu-item-3-4 {
-              &:hover {
-                background-color: #f0f0f0;
-              }
-              &:hover span {
-                color: #0a5abd;
-              }
-              span {
-                display: block;
-                height: 43px;
-                line-height: 43px;
-                padding-right: 15px;
-                cursor: pointer;
-              }
-            }
-            .submenu-item-4-4 {
-              border-radius: 0px 0px 7px 7px;
-              &:hover {
-                background-color: #f0f0f0;
-              }
-              &:hover span {
-                color: #0a5abd;
-              }
-              span {
-                display: block;
-                height: 43px;
-                line-height: 43px;
-                padding-right: 15px;
-                cursor: pointer;
-              }
-            }
-          }
-          .submenu-5 {
-            width: 22vw;
-            height: 38vh;
-            background-color: #fff;
-            position: absolute;
-            border-top: 1px solid #8b8b8b34;
-            display: none;
-            color: #00000099;
-            font-size: 13px;
-            padding-top: 12px;
-            box-sizing: border-box;
-            border-radius: 0px 0px 7px 7px;
-            .submenu-item-1-5 {
-              &:hover {
-                background-color: #f0f0f0;
-              }
-              &:hover span {
-                color: #0a5abd;
-              }
-              span {
-                display: block;
-                height: 43px;
-                line-height: 43px;
-                padding-right: 15px;
-                cursor: pointer;
-              }
-            }
-            .submenu-item-2-5 {
-              &:hover {
-                background-color: #f0f0f0;
-              }
-              &:hover span {
-                color: #0a5abd;
-              }
-              span {
-                display: block;
-                height: 43px;
-                line-height: 43px;
-                padding-right: 15px;
-                cursor: pointer;
-              }
-            }
-            .submenu-item-3-5 {
-              &:hover {
-                background-color: #f0f0f0;
-              }
-              &:hover span {
-                color: #0a5abd;
-              }
-              span {
-                display: block;
-                height: 43px;
-                line-height: 43px;
-                padding-right: 15px;
-                cursor: pointer;
-              }
-            }
-            .submenu-item-4-5 {
-              &:hover {
-                background-color: #f0f0f0;
-              }
-              &:hover span {
-                color: #0a5abd;
-              }
-              span {
-                display: block;
-                height: 43px;
-                line-height: 43px;
-                padding-right: 15px;
-                cursor: pointer;
-              }
-            }
-            .submenu-item-5-5 {
-              &:hover {
-                background-color: #f0f0f0;
-              }
-              &:hover span {
-                color: #0a5abd;
-              }
-              span {
-                display: block;
-                height: 43px;
-                line-height: 43px;
-                padding-right: 15px;
-                cursor: pointer;
-              }
-            }
-            .submenu-item-6-5 {
-              border-radius: 0px 0px 7px 7px;
-              &:hover {
-                background-color: #f0f0f0;
-              }
-              &:hover span {
-                color: #0a5abd;
-              }
-              span {
-                display: block;
-                height: 43px;
-                line-height: 43px;
-                padding-right: 15px;
-                cursor: pointer;
-              }
-            }
-          }
-          .submenu-6 {
-            width: 18vw;
-            height: 50vh;
-            background-color: #fff;
-            position: absolute;
-            border-top: 1px solid #8b8b8b34;
-            display: none;
-            color: #00000099;
-            font-size: 13px;
-            padding-top: 12px;
-            box-sizing: border-box;
-            border-radius: 0px 0px 7px 7px;
-            .submenu-item-1-6 {
-              &:hover {
-                background-color: #f0f0f0;
-              }
-              &:hover span {
-                color: #0a5abd;
-              }
-              span {
-                display: block;
-                height: 43px;
-                line-height: 43px;
-                padding-right: 15px;
-                cursor: pointer;
-              }
-            }
-            .submenu-item-2-6 {
-              position: relative;
-              &:hover {
-                background-color: #f0f0f0;
-                color: #0a5abd;
-              }
-              &:hover .subsubmenu-1 {
-                display: block;
-              }
-              .submenu-svg-div {
-                display: flex;
-                flex-flow: row wrap;
-                align-items: center;
-                gap: 160px;
-              }
-              .span-1 {
-                display: block;
-                height: 43px;
-                line-height: 43px;
-                padding-right: 15px;
-                cursor: pointer;
-              }
-              .subsubmenu-1 {
-                width: 6vw;
-                height: 29vh;
-                position: absolute;
-                font-size: 12px;
-                top: 0;
-                left: -33.5%;
-                background-color: #fff;
-                border-radius: 7px 0px 0px 7px;
-                display: none;
-                .subSpan-1-6 {
-                  display: block;
-                  height: 41px;
-                  line-height: 41px;
-                  padding-right: 15px;
-                  cursor: pointer;
-                  border-radius: 7px 0 0 0;
-                  color: #00000099;
-                  &:hover {
-                    background-color: #f0f0f0;
-                    color: #0a5abd;
-                  }
-                }
-                .subSpan-2-6 {
-                  display: block;
-                  height: 41px;
-                  line-height: 41px;
-                  padding-right: 15px;
-                  cursor: pointer;
-                  color: #00000099;
-                  &:hover {
-                    background-color: #f0f0f0;
-                    color: #0a5abd;
-                  }
-                }
-                .subSpan-3-6 {
-                  display: block;
-                  height: 41px;
-                  line-height: 41px;
-                  padding-right: 15px;
-                  cursor: pointer;
-                  color: #00000099;
-                  &:hover {
-                    background-color: #f0f0f0;
-                    color: #0a5abd;
-                  }
-                }
-                .subSpan-4-6 {
-                  display: block;
-                  height: 41px;
-                  line-height: 41px;
-                  padding-right: 15px;
-                  cursor: pointer;
-                  color: #00000099;
-                  &:hover {
-                    background-color: #f0f0f0;
-                    color: #0a5abd;
-                  }
-                }
-                .subSpan-5-6 {
-                  display: block;
-                  height: 41px;
-                  line-height: 41px;
-                  padding-right: 15px;
-                  cursor: pointer;
-                  border-radius: 0px 0px 0px 7px;
-                  color: #00000099;
-                  &:hover {
-                    background-color: #f0f0f0;
-                    color: #0a5abd;
-                  }
-                }
-              }
-            }
-            .submenu-item-3-6 {
-              &:hover {
-                background-color: #f0f0f0;
-              }
-              &:hover span {
-                color: #0a5abd;
-              }
-              span {
-                display: block;
-                height: 43px;
-                line-height: 43px;
-                padding-right: 15px;
-                cursor: pointer;
-              }
-            }
-            .submenu-item-4-6 {
-              &:hover {
-                background-color: #f0f0f0;
-              }
-              &:hover span {
-                color: #0a5abd;
-              }
-              span {
-                display: block;
-                height: 43px;
-                line-height: 43px;
-                padding-right: 15px;
-                cursor: pointer;
-              }
-            }
-            .submenu-item-5-6 {
-              &:hover {
-                background-color: #f0f0f0;
-              }
-              &:hover span {
-                color: #0a5abd;
-              }
-              span {
-                display: block;
-                height: 43px;
-                line-height: 43px;
-                padding-right: 15px;
-                cursor: pointer;
-              }
-            }
-            .submenu-item-6-6 {
-              &:hover {
-                background-color: #f0f0f0;
-              }
-              &:hover span {
-                color: #0a5abd;
-              }
-              span {
-                display: block;
-                height: 43px;
-                line-height: 43px;
-                padding-right: 15px;
-                cursor: pointer;
-              }
-            }
-            .submenu-item-7-6 {
-              &:hover {
-                background-color: #f0f0f0;
-              }
-              &:hover span {
-                color: #0a5abd;
-              }
-              span {
-                display: block;
-                height: 43px;
-                line-height: 43px;
-                padding-right: 15px;
-                cursor: pointer;
-              }
-            }
-            .submenu-item-8-6 {
-              border-radius: 0px 0px 7px 7px;
-              &:hover {
-                background-color: #f0f0f0;
-              }
-              &:hover span {
-                color: #0a5abd;
-              }
-              span {
-                display: block;
-                height: 43px;
-                line-height: 43px;
-                padding-right: 15px;
-                cursor: pointer;
-              }
-            }
-          }
-          .submenu-7 {
-            width: 81vw;
-            height: 38vh;
-            background-color: #fff;
-            position: absolute;
-            border-top: 1px solid #8b8b8b34;
-            display: none;
-            color: #00000099;
-            font-size: 12px;
-            box-sizing: border-box;
-            border-radius: 0px 0px 7px 7px;
-            left: 0;
-            .submenu-7-top {
-              width: 100%;
-              height: 80%;
-              display: flex;
-              flex-flow: row wrap;
-              .submenu-7-p-1 {
-                width: 19.62%;
-                height: 100%;
-                padding-top: 10px;
-                box-sizing: border-box;
-                border-left: 1px solid #8b8b8b34;
-                .submenu-7-item {
-                  height: 35px;
-                  display: flex;
-                  flex-flow: row wrap;
-                  justify-content: space-between;
-                  &:hover {
-                    background-color: #f0f0f0;
-                  }
-                  &:hover span {
-                    color: #0a5abd;
-                  }
-                  span {
-                    height: 35px;
-                    line-height: 35px;
-                    padding: 0px 8px;
-                    box-sizing: border-box;
-                    cursor: pointer;
-                  }
-                }
-              }
-              .submenu-7-p-2 {
-                width: 20%;
-                height: 100%;
-                padding-top: 10px;
-                box-sizing: border-box;
-                border-left: 1px solid #8b8b8b34;
-                .submenu-7-item {
-                  height: 35px;
-                  display: flex;
-                  flex-flow: row wrap;
-                  justify-content: space-between;
-                  &:hover {
-                    background-color: #f0f0f0;
-                  }
-                  &:hover span {
-                    color: #0a5abd;
-                  }
-                  span {
-                    height: 35px;
-                    line-height: 35px;
-                    padding: 0px 8px;
-                    box-sizing: border-box;
-                    cursor: pointer;
-                  }
-                }
-              }
-              .submenu-7-p-3 {
-                width: 20%;
-                height: 100%;
-                padding-top: 10px;
-                box-sizing: border-box;
-                border-left: 1px solid #8b8b8b34;
-                .submenu-7-item {
-                  height: 35px;
-                  display: flex;
-                  flex-flow: row wrap;
-                  justify-content: space-between;
-                  &:hover {
-                    background-color: #f0f0f0;
-                  }
-                  &:hover span {
-                    color: #0a5abd;
-                  }
-                  span {
-                    height: 35px;
-                    line-height: 35px;
-                    padding: 0px 8px;
-                    box-sizing: border-box;
-                    cursor: pointer;
-                  }
-                }
-              }
-              .submenu-7-p-4 {
-                width: 20%;
-                height: 100%;
-                padding-top: 10px;
-                box-sizing: border-box;
-                border-left: 1px solid #8b8b8b34;
-                .submenu-7-item {
-                  height: 35px;
-                  display: flex;
-                  flex-flow: row wrap;
-                  justify-content: space-between;
-                  &:hover {
-                    background-color: #f0f0f0;
-                  }
-                  &:hover span {
-                    color: #0a5abd;
-                  }
-                  span {
-                    height: 35px;
-                    line-height: 35px;
-                    padding: 0px 8px;
-                    box-sizing: border-box;
-                    cursor: pointer;
-                  }
-                }
-              }
-              .submenu-7-p-5 {
-                width: 20%;
-                height: 100%;
-                padding-top: 10px;
-                box-sizing: border-box;
-                .submenu-7-item {
-                  height: 35px;
-                  display: flex;
-                  flex-flow: row wrap;
-                  justify-content: space-between;
-                  &:hover {
-                    background-color: #f0f0f0;
-                  }
-                  &:hover span {
-                    color: #0a5abd;
-                  }
-                  span {
-                    height: 35px;
-                    line-height: 35px;
-                    padding: 0px 8px;
-                    box-sizing: border-box;
-                    cursor: pointer;
-                  }
-                }
-              }
-            }
-            .submenu-7-bottom {
-              width: 100%;
-              height: 20%;
+            .submenu-1 {
+              width: 22vw;
+              height: 80.3vh;
+              background-color: #fff;
+              position: absolute;
               border-top: 1px solid #8b8b8b34;
-              span {
-                color: #fe5f55;
-                padding: 12px;
-                box-sizing: border-box;
-                font-size: 13px;
+              color: #00000099;
+              font-size: 13px;
+              padding-top: 12px;
+              box-sizing: border-box;
+              border-radius: 0px 0px 7px 7px;
+              .submenu-item-1 {
                 &:hover {
+                  background-color: #f0f0f0;
+                }
+                &:hover span {
                   color: #0a5abd;
                 }
+                span {
+                  display: block;
+                  height: 43px;
+                  line-height: 43px;
+                  padding-right: 15px;
+                  cursor: pointer;
+                }
               }
-              svg {
-                vertical-align: middle;
+              .submenu-item-2 {
+                &:hover {
+                  background-color: #f0f0f0;
+                }
+                &:hover span {
+                  color: #0a5abd;
+                }
+                span {
+                  display: block;
+                  height: 43px;
+                  line-height: 43px;
+                  padding-right: 15px;
+                  cursor: pointer;
+                }
+              }
+              .submenu-item-3 {
+                position: relative;
+                &:hover {
+                  background-color: #f0f0f0;
+                  color: #0a5abd;
+                }
+                &:hover .subsubmenu-1 {
+                  display: block;
+                }
+                .submenu-svg-div {
+                  display: flex;
+                  flex-flow: row wrap;
+                  align-items: center;
+                  gap: 170px;
+                }
+                .span-1 {
+                  display: block;
+                  height: 43px;
+                  line-height: 43px;
+                  padding-right: 15px;
+                  cursor: pointer;
+                }
+                .subsubmenu-1 {
+                  width: 22vw;
+                  height: 17.35vh;
+                  position: absolute;
+                  font-size: 12px;
+                  top: 0;
+                  left: -100%;
+                  background-color: #fff;
+                  border-radius: 7px 0px 0px 7px;
+                  display: none;
+                  .subSpan-1 {
+                    display: block;
+                    height: 41px;
+                    line-height: 41px;
+                    padding-right: 15px;
+                    cursor: pointer;
+                    border-radius: 7px 0 0 0;
+                    color: #00000099;
+                    &:hover {
+                      background-color: #f0f0f0;
+                      color: #0a5abd;
+                    }
+                  }
+                  .subSpan-2 {
+                    display: block;
+                    height: 41px;
+                    line-height: 41px;
+                    padding-right: 15px;
+                    cursor: pointer;
+                    color: #00000099;
+                    &:hover {
+                      background-color: #f0f0f0;
+                      color: #0a5abd;
+                    }
+                  }
+                  .subSpan-3 {
+                    display: block;
+                    height: 41px;
+                    line-height: 41px;
+                    padding-right: 15px;
+                    cursor: pointer;
+                    border-radius: 0px 0px 0px 7px;
+                    color: #00000099;
+                    &:hover {
+                      background-color: #f0f0f0;
+                      color: #0a5abd;
+                    }
+                  }
+                }
+              }
+              .submenu-item-4 {
+                &:hover {
+                  background-color: #f0f0f0;
+                }
+                &:hover span {
+                  color: #0a5abd;
+                }
+                span {
+                  display: block;
+                  height: 43px;
+                  line-height: 43px;
+                  padding-right: 15px;
+                  cursor: pointer;
+                }
+              }
+              .submenu-item-5 {
+                position: relative;
+                &:hover {
+                  background-color: #f0f0f0;
+                  color: #0a5abd;
+                }
+                &:hover .subsubmenu-2 {
+                  display: block;
+                }
+                .submenu-svg-div {
+                  display: flex;
+                  flex-flow: row wrap;
+                  align-items: center;
+                  gap: 230px;
+                }
+                .span-1 {
+                  display: block;
+                  height: 43px;
+                  line-height: 43px;
+                  padding-right: 15px;
+                  cursor: pointer;
+                }
+                .subsubmenu-2 {
+                  width: 22vw;
+                  height: 46vh;
+                  position: absolute;
+                  font-size: 12px;
+                  top: 0;
+                  left: -100%;
+                  background-color: #fff;
+                  border-radius: 7px 0px 0px 7px;
+                  display: none;
+                  .subSpan-1 {
+                    display: block;
+                    height: 41px;
+                    line-height: 41px;
+                    padding-right: 15px;
+                    cursor: pointer;
+                    border-radius: 7px 0 0 0;
+                    color: #00000099;
+                    &:hover {
+                      background-color: #f0f0f0;
+                      color: #0a5abd;
+                    }
+                  }
+                  .subSpan-2 {
+                    display: block;
+                    height: 41px;
+                    line-height: 41px;
+                    padding-right: 15px;
+                    cursor: pointer;
+                    color: #00000099;
+                    &:hover {
+                      background-color: #f0f0f0;
+                      color: #0a5abd;
+                    }
+                  }
+                  .subSpan-3 {
+                    display: block;
+                    height: 41px;
+                    line-height: 41px;
+                    padding-right: 15px;
+                    cursor: pointer;
+                    color: #00000099;
+                    &:hover {
+                      background-color: #f0f0f0;
+                      color: #0a5abd;
+                    }
+                  }
+                  .subSpan-4 {
+                    display: block;
+                    height: 41px;
+                    line-height: 41px;
+                    padding-right: 15px;
+                    cursor: pointer;
+                    color: #00000099;
+                    &:hover {
+                      background-color: #f0f0f0;
+                      color: #0a5abd;
+                    }
+                  }
+                  .subSpan-5 {
+                    display: block;
+                    height: 41px;
+                    line-height: 41px;
+                    padding-right: 15px;
+                    cursor: pointer;
+                    color: #00000099;
+                    &:hover {
+                      background-color: #f0f0f0;
+                      color: #0a5abd;
+                    }
+                  }
+                  .subSpan-6 {
+                    display: block;
+                    height: 41px;
+                    line-height: 41px;
+                    padding-right: 15px;
+                    cursor: pointer;
+                    color: #00000099;
+                    &:hover {
+                      background-color: #f0f0f0;
+                      color: #0a5abd;
+                    }
+                  }
+                  .subSpan-7 {
+                    display: block;
+                    height: 41px;
+                    line-height: 41px;
+                    padding-right: 15px;
+                    cursor: pointer;
+                    color: #00000099;
+                    &:hover {
+                      background-color: #f0f0f0;
+                      color: #0a5abd;
+                    }
+                  }
+                  .subSpan-8 {
+                    display: block;
+                    height: 41px;
+                    line-height: 41px;
+                    padding-right: 15px;
+                    cursor: pointer;
+                    border-radius: 0px 0px 0px 7px;
+                    color: #00000099;
+                    &:hover {
+                      background-color: #f0f0f0;
+                      color: #0a5abd;
+                    }
+                  }
+                }
+              }
+              .submenu-item-6 {
+                position: relative;
+                &:hover {
+                  background-color: #f0f0f0;
+                  color: #0a5abd;
+                }
+                &:hover .subsubmenu-3 {
+                  display: block;
+                }
+                .submenu-svg-div {
+                  display: flex;
+                  flex-flow: row wrap;
+                  align-items: center;
+                  gap: 205px;
+                }
+                .span-1 {
+                  display: block;
+                  height: 43px;
+                  line-height: 43px;
+                  padding-right: 15px;
+                  cursor: pointer;
+                }
+                .subsubmenu-3 {
+                  width: 22vw;
+                  height: 34.5vh;
+                  position: absolute;
+                  font-size: 12px;
+                  top: 0;
+                  left: -100%;
+                  background-color: #fff;
+                  border-radius: 7px 0px 0px 7px;
+                  display: none;
+                  .subSpan-1 {
+                    display: block;
+                    height: 41px;
+                    line-height: 41px;
+                    padding-right: 15px;
+                    cursor: pointer;
+                    border-radius: 7px 0 0 0;
+                    color: #00000099;
+                    &:hover {
+                      background-color: #f0f0f0;
+                      color: #0a5abd;
+                    }
+                  }
+                  .subSpan-2 {
+                    display: block;
+                    height: 41px;
+                    line-height: 41px;
+                    padding-right: 15px;
+                    cursor: pointer;
+                    color: #00000099;
+                    &:hover {
+                      background-color: #f0f0f0;
+                      color: #0a5abd;
+                    }
+                  }
+                  .subSpan-3 {
+                    display: block;
+                    height: 41px;
+                    line-height: 41px;
+                    padding-right: 15px;
+                    cursor: pointer;
+                    color: #00000099;
+                    &:hover {
+                      background-color: #f0f0f0;
+                      color: #0a5abd;
+                    }
+                  }
+                  .subSpan-4 {
+                    display: block;
+                    height: 41px;
+                    line-height: 41px;
+                    padding-right: 15px;
+                    cursor: pointer;
+                    color: #00000099;
+                    &:hover {
+                      background-color: #f0f0f0;
+                      color: #0a5abd;
+                    }
+                  }
+                  .subSpan-5 {
+                    display: block;
+                    height: 41px;
+                    line-height: 41px;
+                    padding-right: 15px;
+                    cursor: pointer;
+                    color: #00000099;
+                    &:hover {
+                      background-color: #f0f0f0;
+                      color: #0a5abd;
+                    }
+                  }
+                  .subSpan-6 {
+                    display: block;
+                    height: 41px;
+                    line-height: 41px;
+                    padding-right: 15px;
+                    cursor: pointer;
+                    border-radius: 0px 0px 0px 7px;
+                    color: #00000099;
+                    &:hover {
+                      background-color: #f0f0f0;
+                      color: #0a5abd;
+                    }
+                  }
+                }
+              }
+              .submenu-item-7 {
+                position: relative;
+                &:hover {
+                  background-color: #f0f0f0;
+                  color: #0a5abd;
+                }
+                &:hover .subsubmenu-4 {
+                  display: block;
+                }
+                .submenu-svg-div {
+                  display: flex;
+                  flex-flow: row wrap;
+                  align-items: center;
+                  gap: 123px;
+                }
+                .span-1 {
+                  display: block;
+                  height: 43px;
+                  line-height: 43px;
+                  padding-right: 15px;
+                  cursor: pointer;
+                }
+                .subsubmenu-4 {
+                  width: 22vw;
+                  height: 40.38vh;
+                  position: absolute;
+                  font-size: 12px;
+                  top: 0;
+                  left: -100%;
+                  background-color: #fff;
+                  border-radius: 7px 0px 0px 7px;
+                  display: none;
+                  .subSpan-1 {
+                    display: block;
+                    height: 41px;
+                    line-height: 41px;
+                    padding-right: 15px;
+                    cursor: pointer;
+                    border-radius: 7px 0 0 0;
+                    color: #00000099;
+                    &:hover {
+                      background-color: #f0f0f0;
+                      color: #0a5abd;
+                    }
+                  }
+                  .subSpan-2 {
+                    display: block;
+                    height: 41px;
+                    line-height: 41px;
+                    padding-right: 15px;
+                    cursor: pointer;
+                    color: #00000099;
+                    &:hover {
+                      background-color: #f0f0f0;
+                      color: #0a5abd;
+                    }
+                  }
+                  .subSpan-3 {
+                    display: block;
+                    height: 41px;
+                    line-height: 41px;
+                    padding-right: 15px;
+                    cursor: pointer;
+                    color: #00000099;
+                    &:hover {
+                      background-color: #f0f0f0;
+                      color: #0a5abd;
+                    }
+                  }
+                  .subSpan-4 {
+                    display: block;
+                    height: 41px;
+                    line-height: 41px;
+                    padding-right: 15px;
+                    cursor: pointer;
+                    color: #00000099;
+                    &:hover {
+                      background-color: #f0f0f0;
+                      color: #0a5abd;
+                    }
+                  }
+                  .subSpan-5 {
+                    display: block;
+                    height: 41px;
+                    line-height: 41px;
+                    padding-right: 15px;
+                    cursor: pointer;
+                    color: #00000099;
+                    &:hover {
+                      background-color: #f0f0f0;
+                      color: #0a5abd;
+                    }
+                  }
+                  .subSpan-6 {
+                    display: block;
+                    height: 41px;
+                    line-height: 41px;
+                    padding-right: 15px;
+                    cursor: pointer;
+                    color: #00000099;
+                    &:hover {
+                      background-color: #f0f0f0;
+                      color: #0a5abd;
+                    }
+                  }
+                  .subSpan-7 {
+                    display: block;
+                    height: 41px;
+                    line-height: 41px;
+                    padding-right: 15px;
+                    cursor: pointer;
+                    border-radius: 0px 0px 0px 7px;
+                    color: #00000099;
+                    &:hover {
+                      background-color: #f0f0f0;
+                      color: #0a5abd;
+                    }
+                  }
+                }
+              }
+              .submenu-item-8 {
+                &:hover {
+                  background-color: #f0f0f0;
+                }
+                &:hover span {
+                  color: #0a5abd;
+                }
+                span {
+                  display: block;
+                  height: 43px;
+                  line-height: 43px;
+                  padding-right: 15px;
+                  cursor: pointer;
+                }
+              }
+              .submenu-item-9 {
+                &:hover {
+                  background-color: #f0f0f0;
+                }
+                &:hover span {
+                  color: #0a5abd;
+                }
+                span {
+                  display: block;
+                  height: 43px;
+                  line-height: 43px;
+                  padding-right: 15px;
+                  cursor: pointer;
+                }
+              }
+              .submenu-item-10 {
+                &:hover {
+                  background-color: #f0f0f0;
+                }
+                &:hover span {
+                  color: #0a5abd;
+                }
+                span {
+                  display: block;
+                  height: 43px;
+                  line-height: 43px;
+                  padding-right: 15px;
+                  cursor: pointer;
+                }
+              }
+              .submenu-item-11 {
+                &:hover {
+                  background-color: #f0f0f0;
+                }
+                &:hover span {
+                  color: #0a5abd;
+                }
+                span {
+                  display: block;
+                  height: 43px;
+                  line-height: 43px;
+                  padding-right: 15px;
+                  cursor: pointer;
+                }
+              }
+              .submenu-item-12 {
+                &:hover {
+                  background-color: #f0f0f0;
+                }
+                &:hover span {
+                  color: #0a5abd;
+                }
+                span {
+                  display: block;
+                  height: 43px;
+                  line-height: 43px;
+                  padding-right: 15px;
+                  cursor: pointer;
+                }
+              }
+              .submenu-item-13 {
+                border-radius: 0px 0px 7px 7px;
+                &:hover {
+                  background-color: #f0f0f0;
+                }
+                &:hover span {
+                  color: #0a5abd;
+                }
+                span {
+                  display: block;
+                  height: 43px;
+                  line-height: 43px;
+                  padding-right: 15px;
+                  cursor: pointer;
+                }
               }
             }
-          }
-          &:hover {
-            overflow: visible;
-          }
-          &:hover .line {
-            right: 0;
-          }
-          .line {
-            width: 100%;
-            height: 3px;
-            background-color: #fe5f55;
-            position: relative;
-            right: -100%;
-            transition: 200ms;
-          }
-
-          .menu-item {
-            display: block;
-            width: fit-content;
-            height: 100%;
-            text-decoration: none;
-            color: #00000099;
-            overflow: hidden;
+            .submenu-2 {
+              width: 22vw;
+              height: 50vh;
+              background-color: #fff;
+              position: absolute;
+              border-top: 1px solid #8b8b8b34;
+              display: none;
+              color: #00000099;
+              font-size: 13px;
+              padding-top: 12px;
+              box-sizing: border-box;
+              border-radius: 0px 0px 7px 7px;
+              .submenu-item-1-2 {
+                &:hover {
+                  background-color: #f0f0f0;
+                }
+                &:hover span {
+                  color: #0a5abd;
+                }
+                span {
+                  display: block;
+                  height: 43px;
+                  line-height: 43px;
+                  padding-right: 15px;
+                  cursor: pointer;
+                }
+              }
+              .submenu-item-2-2 {
+                &:hover {
+                  background-color: #f0f0f0;
+                }
+                &:hover span {
+                  color: #0a5abd;
+                }
+                span {
+                  display: block;
+                  height: 43px;
+                  line-height: 43px;
+                  padding-right: 15px;
+                  cursor: pointer;
+                }
+              }
+              .submenu-item-3-2 {
+                &:hover {
+                  background-color: #f0f0f0;
+                }
+                &:hover span {
+                  color: #0a5abd;
+                }
+                span {
+                  display: block;
+                  height: 43px;
+                  line-height: 43px;
+                  padding-right: 15px;
+                  cursor: pointer;
+                }
+              }
+              .submenu-item-4-2 {
+                &:hover {
+                  background-color: #f0f0f0;
+                }
+                &:hover span {
+                  color: #0a5abd;
+                }
+                span {
+                  display: block;
+                  height: 43px;
+                  line-height: 43px;
+                  padding-right: 15px;
+                  cursor: pointer;
+                }
+              }
+              .submenu-item-5-2 {
+                &:hover {
+                  background-color: #f0f0f0;
+                }
+                &:hover span {
+                  color: #0a5abd;
+                }
+                span {
+                  display: block;
+                  height: 43px;
+                  line-height: 43px;
+                  padding-right: 15px;
+                  cursor: pointer;
+                }
+              }
+              .submenu-item-6-2 {
+                &:hover {
+                  background-color: #f0f0f0;
+                }
+                &:hover span {
+                  color: #0a5abd;
+                }
+                span {
+                  display: block;
+                  height: 43px;
+                  line-height: 43px;
+                  padding-right: 15px;
+                  cursor: pointer;
+                }
+              }
+              .submenu-item-7-2 {
+                &:hover {
+                  background-color: #f0f0f0;
+                }
+                &:hover span {
+                  color: #0a5abd;
+                }
+                span {
+                  display: block;
+                  height: 43px;
+                  line-height: 43px;
+                  padding-right: 15px;
+                  cursor: pointer;
+                }
+              }
+              .submenu-item-8-2 {
+                border-radius: 0px 0px 7px 7px;
+                &:hover {
+                  background-color: #f0f0f0;
+                }
+                &:hover span {
+                  color: #0a5abd;
+                }
+                span {
+                  display: block;
+                  height: 43px;
+                  line-height: 43px;
+                  padding-right: 15px;
+                  cursor: pointer;
+                }
+              }
+            }
+            .submenu-3 {
+              width: 22vw;
+              height: 14vh;
+              background-color: #fff;
+              position: absolute;
+              border-top: 1px solid #8b8b8b34;
+              display: none;
+              color: #00000099;
+              font-size: 13px;
+              padding-top: 12px;
+              box-sizing: border-box;
+              border-radius: 0px 0px 7px 7px;
+              .submenu-item-1-3 {
+                &:hover {
+                  background-color: #f0f0f0;
+                }
+                &:hover span {
+                  color: #0a5abd;
+                }
+                span {
+                  display: block;
+                  height: 43px;
+                  line-height: 43px;
+                  padding-right: 15px;
+                  cursor: pointer;
+                }
+              }
+              .submenu-item-2-3 {
+                border-radius: 0px 0px 7px 7px;
+                &:hover {
+                  background-color: #f0f0f0;
+                }
+                &:hover span {
+                  color: #0a5abd;
+                }
+                span {
+                  display: block;
+                  height: 43px;
+                  line-height: 43px;
+                  padding-right: 15px;
+                  cursor: pointer;
+                }
+              }
+            }
+            .submenu-4 {
+              width: 22vw;
+              height: 26vh;
+              background-color: #fff;
+              position: absolute;
+              border-top: 1px solid #8b8b8b34;
+              display: none;
+              color: #00000099;
+              font-size: 13px;
+              padding-top: 12px;
+              box-sizing: border-box;
+              border-radius: 0px 0px 7px 7px;
+              .submenu-item-1-4 {
+                &:hover {
+                  background-color: #f0f0f0;
+                }
+                &:hover span {
+                  color: #0a5abd;
+                }
+                span {
+                  display: block;
+                  height: 43px;
+                  line-height: 43px;
+                  padding-right: 15px;
+                  cursor: pointer;
+                }
+              }
+              .submenu-item-2-4 {
+                &:hover {
+                  background-color: #f0f0f0;
+                }
+                &:hover span {
+                  color: #0a5abd;
+                }
+                span {
+                  display: block;
+                  height: 43px;
+                  line-height: 43px;
+                  padding-right: 15px;
+                  cursor: pointer;
+                }
+              }
+              .submenu-item-3-4 {
+                &:hover {
+                  background-color: #f0f0f0;
+                }
+                &:hover span {
+                  color: #0a5abd;
+                }
+                span {
+                  display: block;
+                  height: 43px;
+                  line-height: 43px;
+                  padding-right: 15px;
+                  cursor: pointer;
+                }
+              }
+              .submenu-item-4-4 {
+                border-radius: 0px 0px 7px 7px;
+                &:hover {
+                  background-color: #f0f0f0;
+                }
+                &:hover span {
+                  color: #0a5abd;
+                }
+                span {
+                  display: block;
+                  height: 43px;
+                  line-height: 43px;
+                  padding-right: 15px;
+                  cursor: pointer;
+                }
+              }
+            }
+            .submenu-5 {
+              width: 22vw;
+              height: 38vh;
+              background-color: #fff;
+              position: absolute;
+              border-top: 1px solid #8b8b8b34;
+              display: none;
+              color: #00000099;
+              font-size: 13px;
+              padding-top: 12px;
+              box-sizing: border-box;
+              border-radius: 0px 0px 7px 7px;
+              .submenu-item-1-5 {
+                &:hover {
+                  background-color: #f0f0f0;
+                }
+                &:hover span {
+                  color: #0a5abd;
+                }
+                span {
+                  display: block;
+                  height: 43px;
+                  line-height: 43px;
+                  padding-right: 15px;
+                  cursor: pointer;
+                }
+              }
+              .submenu-item-2-5 {
+                &:hover {
+                  background-color: #f0f0f0;
+                }
+                &:hover span {
+                  color: #0a5abd;
+                }
+                span {
+                  display: block;
+                  height: 43px;
+                  line-height: 43px;
+                  padding-right: 15px;
+                  cursor: pointer;
+                }
+              }
+              .submenu-item-3-5 {
+                &:hover {
+                  background-color: #f0f0f0;
+                }
+                &:hover span {
+                  color: #0a5abd;
+                }
+                span {
+                  display: block;
+                  height: 43px;
+                  line-height: 43px;
+                  padding-right: 15px;
+                  cursor: pointer;
+                }
+              }
+              .submenu-item-4-5 {
+                &:hover {
+                  background-color: #f0f0f0;
+                }
+                &:hover span {
+                  color: #0a5abd;
+                }
+                span {
+                  display: block;
+                  height: 43px;
+                  line-height: 43px;
+                  padding-right: 15px;
+                  cursor: pointer;
+                }
+              }
+              .submenu-item-5-5 {
+                &:hover {
+                  background-color: #f0f0f0;
+                }
+                &:hover span {
+                  color: #0a5abd;
+                }
+                span {
+                  display: block;
+                  height: 43px;
+                  line-height: 43px;
+                  padding-right: 15px;
+                  cursor: pointer;
+                }
+              }
+              .submenu-item-6-5 {
+                border-radius: 0px 0px 7px 7px;
+                &:hover {
+                  background-color: #f0f0f0;
+                }
+                &:hover span {
+                  color: #0a5abd;
+                }
+                span {
+                  display: block;
+                  height: 43px;
+                  line-height: 43px;
+                  padding-right: 15px;
+                  cursor: pointer;
+                }
+              }
+            }
+            .submenu-6 {
+              width: 18vw;
+              height: 50vh;
+              background-color: #fff;
+              position: absolute;
+              border-top: 1px solid #8b8b8b34;
+              display: none;
+              color: #00000099;
+              font-size: 13px;
+              padding-top: 12px;
+              box-sizing: border-box;
+              border-radius: 0px 0px 7px 7px;
+              .submenu-item-1-6 {
+                &:hover {
+                  background-color: #f0f0f0;
+                }
+                &:hover span {
+                  color: #0a5abd;
+                }
+                span {
+                  display: block;
+                  height: 43px;
+                  line-height: 43px;
+                  padding-right: 15px;
+                  cursor: pointer;
+                }
+              }
+              .submenu-item-2-6 {
+                position: relative;
+                &:hover {
+                  background-color: #f0f0f0;
+                  color: #0a5abd;
+                }
+                &:hover .subsubmenu-1 {
+                  display: block;
+                }
+                .submenu-svg-div {
+                  display: flex;
+                  flex-flow: row wrap;
+                  align-items: center;
+                  gap: 160px;
+                }
+                .span-1 {
+                  display: block;
+                  height: 43px;
+                  line-height: 43px;
+                  padding-right: 15px;
+                  cursor: pointer;
+                }
+                .subsubmenu-1 {
+                  width: 6vw;
+                  height: 29vh;
+                  position: absolute;
+                  font-size: 12px;
+                  top: 0;
+                  left: -33.5%;
+                  background-color: #fff;
+                  border-radius: 7px 0px 0px 7px;
+                  display: none;
+                  .subSpan-1-6 {
+                    display: block;
+                    height: 41px;
+                    line-height: 41px;
+                    padding-right: 15px;
+                    cursor: pointer;
+                    border-radius: 7px 0 0 0;
+                    color: #00000099;
+                    &:hover {
+                      background-color: #f0f0f0;
+                      color: #0a5abd;
+                    }
+                  }
+                  .subSpan-2-6 {
+                    display: block;
+                    height: 41px;
+                    line-height: 41px;
+                    padding-right: 15px;
+                    cursor: pointer;
+                    color: #00000099;
+                    &:hover {
+                      background-color: #f0f0f0;
+                      color: #0a5abd;
+                    }
+                  }
+                  .subSpan-3-6 {
+                    display: block;
+                    height: 41px;
+                    line-height: 41px;
+                    padding-right: 15px;
+                    cursor: pointer;
+                    color: #00000099;
+                    &:hover {
+                      background-color: #f0f0f0;
+                      color: #0a5abd;
+                    }
+                  }
+                  .subSpan-4-6 {
+                    display: block;
+                    height: 41px;
+                    line-height: 41px;
+                    padding-right: 15px;
+                    cursor: pointer;
+                    color: #00000099;
+                    &:hover {
+                      background-color: #f0f0f0;
+                      color: #0a5abd;
+                    }
+                  }
+                  .subSpan-5-6 {
+                    display: block;
+                    height: 41px;
+                    line-height: 41px;
+                    padding-right: 15px;
+                    cursor: pointer;
+                    border-radius: 0px 0px 0px 7px;
+                    color: #00000099;
+                    &:hover {
+                      background-color: #f0f0f0;
+                      color: #0a5abd;
+                    }
+                  }
+                }
+              }
+              .submenu-item-3-6 {
+                &:hover {
+                  background-color: #f0f0f0;
+                }
+                &:hover span {
+                  color: #0a5abd;
+                }
+                span {
+                  display: block;
+                  height: 43px;
+                  line-height: 43px;
+                  padding-right: 15px;
+                  cursor: pointer;
+                }
+              }
+              .submenu-item-4-6 {
+                &:hover {
+                  background-color: #f0f0f0;
+                }
+                &:hover span {
+                  color: #0a5abd;
+                }
+                span {
+                  display: block;
+                  height: 43px;
+                  line-height: 43px;
+                  padding-right: 15px;
+                  cursor: pointer;
+                }
+              }
+              .submenu-item-5-6 {
+                &:hover {
+                  background-color: #f0f0f0;
+                }
+                &:hover span {
+                  color: #0a5abd;
+                }
+                span {
+                  display: block;
+                  height: 43px;
+                  line-height: 43px;
+                  padding-right: 15px;
+                  cursor: pointer;
+                }
+              }
+              .submenu-item-6-6 {
+                &:hover {
+                  background-color: #f0f0f0;
+                }
+                &:hover span {
+                  color: #0a5abd;
+                }
+                span {
+                  display: block;
+                  height: 43px;
+                  line-height: 43px;
+                  padding-right: 15px;
+                  cursor: pointer;
+                }
+              }
+              .submenu-item-7-6 {
+                &:hover {
+                  background-color: #f0f0f0;
+                }
+                &:hover span {
+                  color: #0a5abd;
+                }
+                span {
+                  display: block;
+                  height: 43px;
+                  line-height: 43px;
+                  padding-right: 15px;
+                  cursor: pointer;
+                }
+              }
+              .submenu-item-8-6 {
+                border-radius: 0px 0px 7px 7px;
+                &:hover {
+                  background-color: #f0f0f0;
+                }
+                &:hover span {
+                  color: #0a5abd;
+                }
+                span {
+                  display: block;
+                  height: 43px;
+                  line-height: 43px;
+                  padding-right: 15px;
+                  cursor: pointer;
+                }
+              }
+            }
+            .submenu-7 {
+              width: 81vw;
+              height: 38vh;
+              background-color: #fff;
+              position: absolute;
+              border-top: 1px solid #8b8b8b34;
+              display: none;
+              color: #00000099;
+              font-size: 12px;
+              box-sizing: border-box;
+              border-radius: 0px 0px 7px 7px;
+              left: 0;
+              .submenu-7-top {
+                width: 100%;
+                height: 80%;
+                display: flex;
+                flex-flow: row wrap;
+                .submenu-7-p-1 {
+                  width: 19.62%;
+                  height: 100%;
+                  padding-top: 10px;
+                  box-sizing: border-box;
+                  border-left: 1px solid #8b8b8b34;
+                  .submenu-7-item {
+                    height: 35px;
+                    display: flex;
+                    flex-flow: row wrap;
+                    justify-content: space-between;
+                    &:hover {
+                      background-color: #f0f0f0;
+                    }
+                    &:hover span {
+                      color: #0a5abd;
+                    }
+                    span {
+                      height: 35px;
+                      line-height: 35px;
+                      padding: 0px 8px;
+                      box-sizing: border-box;
+                      cursor: pointer;
+                    }
+                  }
+                }
+                .submenu-7-p-2 {
+                  width: 20%;
+                  height: 100%;
+                  padding-top: 10px;
+                  box-sizing: border-box;
+                  border-left: 1px solid #8b8b8b34;
+                  .submenu-7-item {
+                    height: 35px;
+                    display: flex;
+                    flex-flow: row wrap;
+                    justify-content: space-between;
+                    &:hover {
+                      background-color: #f0f0f0;
+                    }
+                    &:hover span {
+                      color: #0a5abd;
+                    }
+                    span {
+                      height: 35px;
+                      line-height: 35px;
+                      padding: 0px 8px;
+                      box-sizing: border-box;
+                      cursor: pointer;
+                    }
+                  }
+                }
+                .submenu-7-p-3 {
+                  width: 20%;
+                  height: 100%;
+                  padding-top: 10px;
+                  box-sizing: border-box;
+                  border-left: 1px solid #8b8b8b34;
+                  .submenu-7-item {
+                    height: 35px;
+                    display: flex;
+                    flex-flow: row wrap;
+                    justify-content: space-between;
+                    &:hover {
+                      background-color: #f0f0f0;
+                    }
+                    &:hover span {
+                      color: #0a5abd;
+                    }
+                    span {
+                      height: 35px;
+                      line-height: 35px;
+                      padding: 0px 8px;
+                      box-sizing: border-box;
+                      cursor: pointer;
+                    }
+                  }
+                }
+                .submenu-7-p-4 {
+                  width: 20%;
+                  height: 100%;
+                  padding-top: 10px;
+                  box-sizing: border-box;
+                  border-left: 1px solid #8b8b8b34;
+                  .submenu-7-item {
+                    height: 35px;
+                    display: flex;
+                    flex-flow: row wrap;
+                    justify-content: space-between;
+                    &:hover {
+                      background-color: #f0f0f0;
+                    }
+                    &:hover span {
+                      color: #0a5abd;
+                    }
+                    span {
+                      height: 35px;
+                      line-height: 35px;
+                      padding: 0px 8px;
+                      box-sizing: border-box;
+                      cursor: pointer;
+                    }
+                  }
+                }
+                .submenu-7-p-5 {
+                  width: 20%;
+                  height: 100%;
+                  padding-top: 10px;
+                  box-sizing: border-box;
+                  .submenu-7-item {
+                    height: 35px;
+                    display: flex;
+                    flex-flow: row wrap;
+                    justify-content: space-between;
+                    &:hover {
+                      background-color: #f0f0f0;
+                    }
+                    &:hover span {
+                      color: #0a5abd;
+                    }
+                    span {
+                      height: 35px;
+                      line-height: 35px;
+                      padding: 0px 8px;
+                      box-sizing: border-box;
+                      cursor: pointer;
+                    }
+                  }
+                }
+              }
+              .submenu-7-bottom {
+                width: 100%;
+                height: 20%;
+                border-top: 1px solid #8b8b8b34;
+                cursor: pointer;
+                span {
+                  color: #fe5f55;
+                  padding: 12px;
+                  box-sizing: border-box;
+                  font-size: 13px;
+                  &:hover {
+                    color: #0a5abd;
+                  }
+                }
+                svg {
+                  vertical-align: middle;
+                }
+              }
+            }
             &:hover {
-              color: #fe5f55;
+              overflow: visible;
+            }
+            &:hover .line {
+              right: 0;
+            }
+            .line {
+              width: 100%;
+              height: 3px;
+              background-color: #fe5f55;
+              position: relative;
+              right: -100%;
+              transition: 200ms;
+            }
+
+            .menu-item {
+              display: block;
+              width: fit-content;
+              height: 100%;
+              text-decoration: none;
+              color: #00000099;
+              overflow: hidden;
+              &:hover {
+                color: #fe5f55;
+              }
             }
           }
         }
       }
     }
+    ::-webkit-scrollbar {
+      width: 12px;
+      height: 12px;
+    }
+    ::-webkit-scrollbar-track {
+      background-color: #f5f5f5;
+    }
+    ::-webkit-scrollbar-thumb {
+      background-color: #063268;
+      border-radius: 10px;
+      border: 3px solid #f5f5f5;
+    }
   }
-  ::-webkit-scrollbar {
-    width: 12px;
-    height: 12px;
-  }
-  ::-webkit-scrollbar-track {
-    background-color: #f5f5f5;
-  }
-  ::-webkit-scrollbar-thumb {
-    background-color: #063268;
-    border-radius: 10px;
-    border: 3px solid #f5f5f5;
-  }
-}

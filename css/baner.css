@@ -9,6 +9,7 @@
     width: 1216px;
     height: 402px;
     border-radius: 12px;
+    cursor: pointer;
   }
   .swiper-slide {
     text-align: center;
