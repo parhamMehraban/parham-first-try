@@ -10,3 +10,15 @@ body {
   --shabnam: shabnam;
   --fNum: fNum;
 }
+@font-face {
+  font-family: shabnam;
+  src: url(../fonts/shabnam/Shabnam.eot), url(../fonts/shabnam/Shabnam.ttf),
+    url(../fonts/shabnam/Shabnam.woff), url(../fonts/shabnam/Shabnam.woff2);
+}
+@font-face {
+  font-family: fNum;
+  src: url(../fonts/FaNum/IRANSansWebFaNum-Bold.eot),
+    url(../fonts/FaNum/IRANSansWebFaNum-Bold.ttf),
+    url(../fonts/FaNum/IRANSansWebFaNum-Bold.woff),
+    url(../fonts/FaNum/IRANSansWebFaNum-Bold.woff2);
+}
